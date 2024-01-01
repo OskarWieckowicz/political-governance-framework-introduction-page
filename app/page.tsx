@@ -62,19 +62,19 @@ export default function BasicTabs() {
           aria-label="basic tabs example"
           centered
         >
-          <Tab label="Item One" {...a11yProps(0)} />
-          <Tab label="Item Two" {...a11yProps(1)} />
-          <Tab label="Item Three" {...a11yProps(2)} />
+          <Tab label="App Flow" {...a11yProps(0)} />
+          <Tab label="Technical Details" {...a11yProps(1)} />
+          <Tab label="Business Insights" {...a11yProps(2)} />
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        <TechnicalArcticle />
+        <UserManual />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        <BusinessArticle />
+        <TechnicalArcticle />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        <UserManual />
+        <BusinessArticle />
       </CustomTabPanel>
     </Box>
   );
