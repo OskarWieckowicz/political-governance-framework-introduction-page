@@ -169,8 +169,8 @@ const BusinessArticle = () => {
           For example by financing electric vehicles companies, there will be
           more electric cars than combustion cars on the streets. This is how an
           organization directs the flow of money to certain companies. Now,
-          let's examine how this influence might trickle down to the individual
-          level.
+          let&apos;s examine how this influence might trickle down to the
+          individual level.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
           Looking at the present influence of individuals on government
@@ -339,10 +339,11 @@ const BusinessArticle = () => {
           dependencies on third parties.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
-          Simplified tax laws pave the way. The system's structure is designed
-          to simplify tax regulations, providing a clear and comprehensible
-          framework for taxpayers to navigate. This simplified approach fosters
-          greater understanding and compliance with tax obligations.
+          Simplified tax laws pave the way. The system&apos;s structure is
+          designed to simplify tax regulations, providing a clear and
+          comprehensible framework for taxpayers to navigate. This simplified
+          approach fosters greater understanding and compliance with tax
+          obligations.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
           Empowerment in funding decisions. Individuals wield significant
