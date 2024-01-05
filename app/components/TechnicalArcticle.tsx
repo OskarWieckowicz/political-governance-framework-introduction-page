@@ -23,7 +23,7 @@ const TechnicalArcticle = () => {
               backgroundSize: "contain",
             }}
             image="/diagram.svg"
-            title="Paella dish"
+            title="Architecture diagram"
           />
         </Box>
 

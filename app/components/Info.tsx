@@ -27,8 +27,12 @@ const Info = () => {
           If you have any questions you can contact me here:
         </Typography>
         <Button>
-          <Link target="_blank" href="https://pl.linkedin.com/" color="blue">
-            linkedin
+          <Link
+            target="_blank"
+            href="https://pl.linkedin.com/in/oskar-wi%C4%99ckowicz-04b138201"
+            color="blue"
+          >
+            LinkedIn
           </Link>
         </Button>
       </Box>
