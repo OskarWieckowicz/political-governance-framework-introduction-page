@@ -4,7 +4,7 @@ import React from "react";
 const BusinessArticle = () => {
   return (
     <Container>
-      <Box sx={{ bgcolor: "background.paper", padding: 10 }}>
+      <Box sx={{ bgcolor: "background.paper", padding: { xs: 2, md: 10 } }}>
         <Typography variant="h4" gutterBottom>
           Introduction
         </Typography>

@@ -1,10 +1,10 @@
-import { Box, Container, Typography } from "@mui/material";
+import { Box, CardMedia, Container, Typography } from "@mui/material";
 import React from "react";
 import Image from "next/image";
 const TechnicalArcticle = () => {
   return (
     <Container>
-      <Box sx={{ bgcolor: "background.paper", padding: 10 }}>
+      <Box sx={{ bgcolor: "background.paper", padding: { xs: 2, md: 10 } }}>
         <Typography variant="h4" gutterBottom>
           Architecture diagram
         </Typography>
@@ -15,11 +15,15 @@ const TechnicalArcticle = () => {
             alignItems: "center",
           }}
         >
-          <Image
-            src="/diagram.svg"
-            width={500}
-            height={500}
-            alt="Architecture diagram"
+          <CardMedia
+            component="div"
+            sx={{
+              width: "700px",
+              height: "400px",
+              backgroundSize: "contain",
+            }}
+            image="/diagram.svg"
+            title="Paella dish"
           />
         </Box>
 
@@ -49,7 +53,7 @@ const TechnicalArcticle = () => {
           requires tax identifier and ether. It logs payment events and locks
           sent eth into the smart contract. &apos;Withdraw&apos; method can be
           called by the smart contract owner and it sends ethers stored in the
-          smart contract to the owner's wallet address.
+          smart contract to the owner&apos;s wallet address.
         </Typography>
 
         <Typography variant="h4" gutterBottom>
@@ -67,18 +71,18 @@ const TechnicalArcticle = () => {
         </Typography>
         <Typography variant="body2" sx={{ marginBottom: "20px" }}>
           The backend operates as a Spring Boot application comprising two Maven
-          modules. The 'core' module encompasses the fundamental
-          functionalities, while the 'spi' module houses the Keycloak Service
-          Provider Interfaces. Secured endpoints in Spring Boot require
+          modules. The &apos;core&apos; module encompasses the fundamental
+          functionalities, while the &apos;spi&apos; module houses the Keycloak
+          Service Provider Interfaces. Secured endpoints in Spring Boot require
           authentication through Keycloak for frontend access. This backend
           component communicates with the blockchain via Web3J, extracting
           payment logs from smart contracts and storing them in an independent
           database. Scheduled processes synchronize logs, while another fetches
           ETH/USD price from the Coin API, updating the database every 15
           minutes due to API request limits. User data retrieval occurs from
-          Keycloak's database. Additionally, the Spring Boot app interacts with
-          AWS S3 for user document storage. Moreover the spring boot app uses
-          Test Containers which enables running tests in the pipeline.
+          Keycloak&apos;s database. Additionally, the Spring Boot app interacts
+          with AWS S3 for user document storage. Moreover the spring boot app
+          uses Test Containers which enables running tests in the pipeline.
         </Typography>
 
         <Typography variant="h4" gutterBottom>

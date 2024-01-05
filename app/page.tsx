@@ -1,5 +1,5 @@
 "use client";
-import Tabs from "@mui/material/Tabs";
+import Tabs, { tabsClasses } from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
@@ -7,6 +7,9 @@ import { SyntheticEvent, useState } from "react";
 import BusinessArticle from "./components/BusinessArticle";
 import TechnicalArcticle from "./components/TechnicalArcticle";
 import UserManual from "./components/UserManual";
+import { Container, ThemeProvider } from "@mui/material";
+import theme from "./components/theme";
+import Info from "./components/Info";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -26,8 +29,14 @@ function CustomTabPanel(props: TabPanelProps) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
+        <Box
+          sx={{
+            paddingTop: 3,
+            paddingLeft: { sm: 3, sx: 0 },
+            paddingRight: { sm: 3, sx: 0 },
+          }}
+        >
+          {children}
         </Box>
       )}
     </div>
@@ -49,33 +58,47 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: "100%" }}>
-      <Box
-        sx={{
-          borderBottom: 1,
-          borderColor: "divider",
-        }}
-      >
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          aria-label="basic tabs example"
-          centered
+    <ThemeProvider theme={theme}>
+      <Box sx={{ width: "100%" }}>
+        <Box
+          sx={{
+            borderBottom: 1,
+            borderColor: "divider",
+          }}
         >
-          <Tab label="App Flow" {...a11yProps(0)} />
-          <Tab label="Technical Details" {...a11yProps(1)} />
-          <Tab label="Business Insights" {...a11yProps(2)} />
-        </Tabs>
+          <Tabs
+            value={value}
+            onChange={handleChange}
+            aria-label="basic tabs example"
+            variant="scrollable"
+            scrollButtons
+            allowScrollButtonsMobile
+            style={{ justifyContent: "center" }}
+            sx={{
+              [`& .${tabsClasses.scroller}`]: {
+                "&.MuiTabs-scrollableX": { flexGrow: "0" },
+              },
+            }}
+          >
+            <Tab label="Info" {...a11yProps(0)} />
+            <Tab label="App Flow" {...a11yProps(1)} />
+            <Tab label="Technical Details" {...a11yProps(2)} />
+            <Tab label="Business Insights" {...a11yProps(3)} />
+          </Tabs>
+        </Box>
+        <CustomTabPanel value={value} index={0}>
+          <Info />
+        </CustomTabPanel>
+        <CustomTabPanel value={value} index={1}>
+          <UserManual />
+        </CustomTabPanel>
+        <CustomTabPanel value={value} index={2}>
+          <TechnicalArcticle />
+        </CustomTabPanel>
+        <CustomTabPanel value={value} index={3}>
+          <BusinessArticle />
+        </CustomTabPanel>
       </Box>
-      <CustomTabPanel value={value} index={0}>
-        <UserManual />
-      </CustomTabPanel>
-      <CustomTabPanel value={value} index={1}>
-        <TechnicalArcticle />
-      </CustomTabPanel>
-      <CustomTabPanel value={value} index={2}>
-        <BusinessArticle />
-      </CustomTabPanel>
-    </Box>
+    </ThemeProvider>
   );
 }
