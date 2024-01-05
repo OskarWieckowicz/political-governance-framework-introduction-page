@@ -99,7 +99,7 @@ const TechnicalArcticle = () => {
           data from logs, and securely store it in an independent database.
           Moreover, Web3J&apos;s functionalities extend to retrieving ETH
           balances associated with specified addresses, enhancing the
-          application's blockchain interactions.
+          application&apos;s blockchain interactions.
         </Typography>
 
         <Typography variant="body2" sx={{ marginBottom: "20px" }}>
