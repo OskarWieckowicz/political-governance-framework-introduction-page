@@ -1,13 +1,12 @@
 "use client";
 import Tabs, { tabsClasses } from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { SyntheticEvent, useState } from "react";
 import BusinessArticle from "./components/BusinessArticle";
 import TechnicalArcticle from "./components/TechnicalArcticle";
 import UserManual from "./components/UserManual";
-import { Container, ThemeProvider } from "@mui/material";
+import { ThemeProvider } from "@mui/material";
 import theme from "./components/theme";
 import Info from "./components/Info";
 

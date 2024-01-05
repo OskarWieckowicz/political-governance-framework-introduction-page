@@ -57,6 +57,7 @@ const UserManual = () => {
             width: "100%",
             paddingTop: "calc(100% * 600 / 1050)",
             backgroundPosition: "center",
+            backgroundSize: "contain",
           }}
           image="/screen5.png"
           title="Screen5"
@@ -67,6 +68,7 @@ const UserManual = () => {
             width: "100%",
             paddingTop: "calc(100% * 600 / 1050)",
             backgroundPosition: "center",
+            backgroundSize: "contain",
           }}
           image="/screen6.png"
           title="Screen6"
@@ -77,9 +79,131 @@ const UserManual = () => {
             width: "100%",
             paddingTop: "calc(100% * 600 / 1050)",
             backgroundPosition: "center",
+            backgroundSize: "contain",
           }}
-          image="/screen7.png"
-          title="Screen7"
+          image="/screen8.png"
+          title="Screen8"
+        />
+        <CardMedia
+          component="div"
+          sx={{
+            width: "100%",
+            paddingTop: "calc(100% * 600 / 1050)",
+            backgroundPosition: "center",
+            backgroundSize: "contain",
+          }}
+          image="/screen9.png"
+          title="Screen9"
+        />
+        <CardMedia
+          component="div"
+          sx={{
+            width: "100%",
+            paddingTop: "calc(100% * 600 / 1050)",
+            backgroundPosition: "center",
+            backgroundSize: "contain",
+          }}
+          image="/screen10.png"
+          title="Screen10"
+        />
+        <CardMedia
+          component="div"
+          sx={{
+            width: "100%",
+            paddingTop: "calc(100% * 600 / 1050)",
+            backgroundPosition: "center",
+            backgroundSize: "contain",
+          }}
+          image="/screen11.png"
+          title="Screen11"
+        />
+        <CardMedia
+          component="div"
+          sx={{
+            width: "100%",
+            paddingTop: "calc(100% * 600 / 1050)",
+            backgroundPosition: "center",
+            backgroundSize: "contain",
+          }}
+          image="/screen12.png"
+          title="Screen12"
+        />
+        <CardMedia
+          component="div"
+          sx={{
+            width: "100%",
+            paddingTop: "calc(100% * 600 / 1050)",
+            backgroundPosition: "center",
+            backgroundSize: "contain",
+          }}
+          image="/screen13.png"
+          title="Screen13"
+        />
+        <CardMedia
+          component="div"
+          sx={{
+            width: "100%",
+            paddingTop: "calc(100% * 600 / 1050)",
+            backgroundPosition: "center",
+            backgroundSize: "contain",
+          }}
+          image="/screen14.png"
+          title="Screen14"
+        />
+        <CardMedia
+          component="div"
+          sx={{
+            width: "100%",
+            paddingTop: "calc(100% * 600 / 1050)",
+            backgroundPosition: "center",
+            backgroundSize: "contain",
+          }}
+          image="/screen15.png"
+          title="Screen15"
+        />
+        <CardMedia
+          component="div"
+          sx={{
+            width: "100%",
+            paddingTop: "calc(100% * 600 / 1050)",
+            backgroundPosition: "center",
+            backgroundSize: "contain",
+          }}
+          image="/screen16.png"
+          title="Screen16"
+        />
+        <CardMedia
+          component="div"
+          sx={{
+            width: "100%",
+            paddingTop: "calc(100% * 600 / 1050)",
+            backgroundPosition: "center",
+            backgroundSize: "contain",
+          }}
+          image="/screen17.png"
+          title="Screen17"
+        />
+        <CardMedia
+          component="div"
+          sx={{
+            width: "100%",
+            paddingTop: "calc(100% * 600 / 1050)",
+            backgroundPosition: "center",
+            backgroundSize: "contain",
+          }}
+          image="/screen18.png"
+          title="Screen18"
+        />
+        <CardMedia
+          component="div"
+          sx={{
+            width: "100%",
+            paddingTop: "calc(100% * 600 / 1050)",
+            backgroundPosition: "center",
+            backgroundSize: "contain",
+          }}
+          image="/screen19.png"
+          title="Screen19"
         />
         <Typography variant="h5">3. We can check our profile</Typography>
       </Box>

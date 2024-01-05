@@ -14,11 +14,10 @@ const Info = () => {
           to learn more about the project.
         </Typography>
         <Typography>The project itself can be found here:</Typography>
-        <Button>
+        <Button size="large">
           <Link
             target="_blank"
             href="https://www.political-governance-framework.com/"
-            color="blue"
           >
             See the project
           </Link>
@@ -26,11 +25,10 @@ const Info = () => {
         <Typography>
           If you have any questions you can contact me here:
         </Typography>
-        <Button>
+        <Button size="large">
           <Link
             target="_blank"
             href="https://pl.linkedin.com/in/oskar-wi%C4%99ckowicz-04b138201"
-            color="blue"
           >
             LinkedIn
           </Link>

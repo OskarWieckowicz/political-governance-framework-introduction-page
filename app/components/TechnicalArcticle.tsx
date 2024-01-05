@@ -53,7 +53,8 @@ const TechnicalArcticle = () => {
           requires tax identifier and ether. It logs payment events and locks
           sent eth into the smart contract. &apos;Withdraw&apos; method can be
           called by the smart contract owner and it sends ethers stored in the
-          smart contract to the owner&apos;s wallet address.
+          smart contract to the owner&apos;s wallet address. Smart Contracts
+          instances were deployed to Sepolia Testnet using Remix.
         </Typography>
 
         <Typography variant="h4" gutterBottom>
@@ -70,19 +71,50 @@ const TechnicalArcticle = () => {
           Backend
         </Typography>
         <Typography variant="body2" sx={{ marginBottom: "20px" }}>
-          The backend operates as a Spring Boot application comprising two Maven
-          modules. The &apos;core&apos; module encompasses the fundamental
-          functionalities, while the &apos;spi&apos; module houses the Keycloak
-          Service Provider Interfaces. Secured endpoints in Spring Boot require
-          authentication through Keycloak for frontend access. This backend
-          component communicates with the blockchain via Web3J, extracting
-          payment logs from smart contracts and storing them in an independent
-          database. Scheduled processes synchronize logs, while another fetches
-          ETH/USD price from the Coin API, updating the database every 15
-          minutes due to API request limits. User data retrieval occurs from
-          Keycloak&apos;s database. Additionally, the Spring Boot app interacts
-          with AWS S3 for user document storage. Moreover the spring boot app
-          uses Test Containers which enables running tests in the pipeline.
+          The backend functions as a Spring Boot application structured into two
+          Maven modules: the &apos;core&apos; module encompassing fundamental
+          functionalities and the &apos;spi&apos; module housing the Keycloak
+          Service Provider Interfaces. Within its security framework, Spring
+          Boot relies on OAuth2 for robust authentication, mandating
+          Keycloak&apos;s authorization mechanisms to grant access to its
+          endpoints. This integration ensures secure and controlled interactions
+          with the application&apos;s resources.
+        </Typography>
+
+        <Typography variant="body2" sx={{ marginBottom: "20px" }}>
+          The application utilizes two distinct databases for different
+          purposes: one dedicated solely to Keycloak, housing Keycloak&apos;s
+          tables and user-related data, and another dedicated to the
+          application&apos;s business logic. The Keycloak-specific database
+          serves as the repository for user information, which is fetched by
+          Spring Boot for authentication and association with data from its own
+          database.
+        </Typography>
+
+        <Typography variant="body2" sx={{ marginBottom: "20px" }}>
+          Communication with the blockchain is facilitated through the Web3J
+          library, which provides a CLI tool enabling the generation of a Smart
+          Contract Java wrapper class. Once this class is generated, a listener
+          can be executed to actively monitor contract events, extract payment
+          data from logs, and securely store it in an independent database.
+          Moreover, Web3J&apos;s functionalities extend to retrieving ETH
+          balances associated with specified addresses, enhancing the
+          application's blockchain interactions.
+        </Typography>
+
+        <Typography variant="body2" sx={{ marginBottom: "20px" }}>
+          For real-time ETH/USD price updates, our application leverages a
+          scheduler that periodically fetches this essential data from the Coin
+          API. To comply with API request limits, the database undergoes updates
+          every 15 minutes.
+        </Typography>
+
+        <Typography variant="body2" sx={{ marginBottom: "20px" }}>
+          Furthermore, the Spring Boot application seamlessly integrates with
+          AWS S3 for efficient and secure storage of user documents. To maintain
+          code integrity and reliability, the test environment was configured so
+          that when running the pipeline in github actions, the database run in
+          Test Containers.
         </Typography>
 
         <Typography variant="h4" gutterBottom>

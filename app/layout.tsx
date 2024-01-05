@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "PGF WHITE PAPER",
-  description: "Political Governance Framework white paper",
+  description: "PGF WHITE PAPER",
 };
 
 export default function RootLayout({
