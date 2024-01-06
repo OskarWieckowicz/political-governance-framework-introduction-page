@@ -1,4 +1,4 @@
-import { Box, Button, Container, Typography } from "@mui/material";
+import { Alert, Box, Button, Container, Typography } from "@mui/material";
 import Link from "next/link";
 import React from "react";
 
@@ -22,6 +22,10 @@ const Info = () => {
             See the project
           </Link>
         </Button>
+        <Alert severity="info">
+          The website may be temporarily inactive if AWS Free Tier limits have
+          been exceeded.
+        </Alert>
         <Typography>
           If you have any questions you can contact me here:
         </Typography>
