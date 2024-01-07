@@ -41,6 +41,41 @@ const TechnicalArcticle = () => {
         </Typography>
 
         <Typography variant="h4" gutterBottom>
+          Repositories
+        </Typography>
+        <Typography variant="body2" sx={{ marginBottom: "20px" }}>
+          Frontend:{" "}
+          <Typography
+            component="a"
+            href="https://github.com/OskarWieckowicz/Political-Governance-Framework-Front-2"
+            target="_blank"
+            sx={{ color: "#1976d2" }}
+          >
+            https://github.com/OskarWieckowicz/Political-Governance-Framework-Front-2
+          </Typography>{" "}
+          <br />
+          Backend:{" "}
+          <Typography
+            component="a"
+            href="https://github.com/OskarWieckowicz/political-governance-framework-backend"
+            target="_blank"
+            sx={{ color: "#1976d2" }}
+          >
+            https://github.com/OskarWieckowicz/political-governance-framework-backend
+          </Typography>
+          <br />
+          Dapp:{" "}
+          <Typography
+            component="a"
+            href="https://github.com/OskarWieckowicz/Political-Governance-Framework-DAPP"
+            target="_blank"
+            sx={{ color: "#1976d2" }}
+          >
+            https://github.com/OskarWieckowicz/Political-Governance-Framework-DAPP
+          </Typography>
+        </Typography>
+
+        <Typography variant="h4" gutterBottom>
           Smart Contract
         </Typography>
         <Typography variant="body2" sx={{ marginBottom: "20px" }}>
