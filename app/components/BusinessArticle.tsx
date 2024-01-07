@@ -9,52 +9,48 @@ const BusinessArticle = () => {
           Introduction
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
-          The proposed concept revolves around the creation of a political
-          governance system anchored in blockchain technology, strategically
-          designed to augment the transparency of our government&apos;s budget
-          and financial operations. Blockchain, renowned for its immutable and
-          transparent nature, plays a pivotal role in this initiative by
-          rendering all transactions publicly accessible. Through this
-          technological backbone, a comprehensive traceability of funds becomes
-          feasible, ensuring an unparalleled level of financial transparency
-          within the governmental framework.
+          The proposed concept is to create a blockchain-based political
+          management system strategically designed to increase transparency in
+          our government&apos;s budget and financial operations. Blockchain,
+          known for its immutable and transparent nature, plays a key role in
+          this initiative by making all transactions publicly available. With
+          this technological backbone, comprehensive tracking of funds becomes
+          possible, providing an unparalleled level of financial transparency.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
-          The essence of this innovative system lies in its aspiration to
-          empower citizens by endowing them with amplified decision-making
-          authority. This empowerment is actualized through a groundbreaking
-          approach: granting individuals the liberty to allocate their taxes
-          autonomously. In essence, citizens are bestowed with the prerogative
-          to designate the institutions and sectors they wish to support using
-          their tax contributions. This newfound freedom allows individuals to
-          actively determine which institutions should receive funding,
-          effectively shaping the trajectory of societal development by choosing
-          where their financial support is directed and which entities might not
-          warrant funding.
+          At the heart of this innovative system is an effort to empower
+          citizens by giving them increased decision-making powers. This
+          empowerment is achieved through a groundbreaking approach: giving
+          individuals the freedom to autonomously allocate their taxes.
+          Essentially, citizens are given the privilege to designate the
+          institutions and sectors they want to support with their tax
+          contributions. This newfound freedom allows individuals to actively
+          determine which institutions should receive funding, effectively
+          shaping the trajectory of social development by choosing where their
+          financial support is directed and which entities may not deserve
+          funding.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
-          Within the context of this article, our exploration embarks on a
-          multifaceted journey. Initially, we embark on an inquiry into the
-          fundamental rationale behind the existence and obligatory nature of
-          taxes. We subsequently delve into an in-depth analysis, scrutinizing
-          the efficacy and implications of various forms of taxation, aiming to
-          discern the most efficient models for societal progress.
+          In the context of this article, our exploration embarks on a
+          multi-faceted journey. Initially, we begin by examining the
+          fundamental rationale behind the existence and mandatory nature of
+          taxes.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
-          Moreover, our examination extends to the profound influence that
-          funding holds in shaping the evolution and growth of institutions. We
-          aim to dissect the correlation between financial support and
-          institutional development, shedding light on the pivotal role that
-          funding allocation plays in the advancement and sustenance of various
-          sectors within a society.
+          Moreover, our study extends to the profound impact of financing in
+          shaping the evolution and development of institutions. Our goal is to
+          analyze the correlation between financial support and institutional
+          development, shedding light on the key role that the allocation of
+          funds plays in the development and maintenance of various sectors in
+          society.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
-          Finally, our focus converges on the articulation and proposal of a
-          novel system, meticulously designed to harness the potential of
-          blockchain technology in revamping governance. We aim to outline the
-          framework of this proposed system and deliberate on potential
-          methodologies for its seamless integration and realization within
-          existing governmental structures.
+          Finally, we focus on formulating and proposing a new system,
+          meticulously designed to exploit the potential of blockchain
+          technology in reorganizing governance. Our goal is to outline the
+          framework of the proposed system and consider potential methods for
+          its seamless integration and implementation within existing government
+          structures.
         </Typography>
 
         <Typography variant="h4" gutterBottom>
@@ -75,7 +71,7 @@ const BusinessArticle = () => {
           infrastructures rather than everyone building their separate pathways.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
-          Taxes serve a triple purpose - besides resource pooling for common
+          Taxes serve another purpose - besides resource pooling for common
           goods, they facilitate development. Without the redistribution of
           wealth, not everyone would have access to education. Education, in
           turn, accelerates community and technological advancements, fostering
@@ -148,8 +144,8 @@ const BusinessArticle = () => {
           sx={{ marginBottom: "20px", marginTop: "20px" }}
         >
           The last part of the quote “who controls the money can control the
-          world” is the foundation upon which the idea of the political
-          governance framework rests. I will discuss some of the examples
+          world” is the foundation upon which the idea of the Political
+          Governance Framework rests. I will discuss some of the examples
           related to the framework.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
@@ -174,7 +170,7 @@ const BusinessArticle = () => {
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
           Looking at the present influence of individuals on government
-          decisions, it&apos;s remarkably limited. Taking the Polish political
+          decisions, it&apos;s remarkably limited. Taking the polish political
           system as an example, where I reside, citizens vote for a political
           party every four years, after which their influence diminishes
           considerably. Tax payments are allocated by the government without
@@ -186,16 +182,17 @@ const BusinessArticle = () => {
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
           Can we empower individuals to direct where their money flows? Imagine
-          if citizens could dictate where their taxes are allocated or prevent
-          funding for certain purposes, such as in the case of a conflict like
-          the war in Ukraine. With blockchain technology and a novel political
-          governance framework, this could be conceivable. Blockchain payment
-          systems eliminate third-party control (like banks), granting
-          individuals direct control over their funds. This could potentially
-          disrupt direct government funding, enabling citizens to influence
-          where their taxes are directed. For instance, if one believes
-          healthcare quality is lacking, they could choose to allocate more of
-          their tax money toward improving healthcare services.
+          if citizens could decide where their taxes went. Let&apos;s take the
+          conflict in Ukraine as an example. Russian citizens opposing the
+          government&apos;s actions could cut off funding to the army,
+          potentially shortening the duration of the conflict. With blockchain
+          technology and a novel political governance framework, this could be
+          conceivable. Blockchain payment systems eliminate third-party control
+          (like banks), granting individuals direct control over their funds.
+          This could potentially disrupt direct government funding, enabling
+          citizens to influence where their taxes are directed. For instance, if
+          one believes healthcare quality is lacking, they could choose to
+          allocate more of their tax money toward improving healthcare services.
         </Typography>
 
         <Typography variant="h4" gutterBottom>
@@ -241,8 +238,8 @@ const BusinessArticle = () => {
           and NATO. These entities enact laws that supersede those of individual
           countries, leaving citizens with minimal or no influence over their
           decisions. Even member countries often lack significant
-          decision-making power within these organizations. There is a need for
-          change—to decentralize this power and place it in the hands of the
+          decision-making power within these organizations. There&apos;s a need
+          for change—to decentralize this power and place it in the hands of the
           people. This shift can be facilitated by exerting control over funding
           these organizations and ensuring transparency through blockchain
           technology. Transparency can help detect lobbying efforts and unfair
@@ -261,21 +258,21 @@ const BusinessArticle = () => {
           chapters, operates as follows.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
-          As a taxpayer, I am required to pay a 12% tax on my income.
+          As a taxpayer, I&apos;m required to pay a 12% tax on my income.
           Subsequently, I have the autonomy to allocate this amount among
           various available institutions. Options include specific sectors of
           public services in my country, such as healthcare, education, road
           infrastructure development, among others. Additionally, taxpayers have
-          the opportunity to select organizations they belong to, such as the EU
-          or NATO.
+          the opportunity to choose the organizations to which their countries
+          belong, e.g. the EU or NATO.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
           In this system, I possess the authority to determine the allocation of
-          my taxes toward specific objectives. Should I choose not to allocate
-          the funds myself, default proportions dictate where the money will be
-          directed. For instance, by default, 20% of my taxes would be
-          designated for healthcare, 30% for education, 20% for infrastructure,
-          and 10% each for the EU, NATO, and social security.
+          my taxes toward specific objectives. If I choose not to allocate funds
+          myself, the default proportions dictate where the money goes. For
+          instance, by default, 20% of my taxes would be designated for
+          healthcare, 30% for education, 20% for infrastructure, and 10% each
+          for the EU, NATO, and social security.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
           However, I retain the ability to customize these proportions according
@@ -283,7 +280,7 @@ const BusinessArticle = () => {
           sectors. For instance, if I hold the belief that the actions of the EU
           are detrimental to either myself or the country, I have the liberty to
           allocate no funds to this institution and redirect the saved amount,
-          for instance, toward the military
+          for instance, toward the military.
         </Typography>
 
         <Typography variant="h4" gutterBottom>
@@ -302,9 +299,8 @@ const BusinessArticle = () => {
           payment method that, upon receiving the citizen&apos;s identifier as
           an argument, records the transaction event. Funds reside within the
           contract and are accessible for withdrawal by the respective
-          organization or ministry. Every instance of a smart contract
-          represents one of these entities, serving as the destination for tax
-          disbursements.
+          organization or ministry. Each smart contract instance represents one
+          of these entities, serving as the destination for tax payments.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
           When a citizen visits the tax office webpage, they encounter a list of
@@ -312,10 +308,9 @@ const BusinessArticle = () => {
           taxes. Subsequently, they can initiate a smart contract method with
           their identification to fulfill their tax obligations. Alternatively,
           they can complete this process directly through the webpage interface.
-          The tax office then scrutinizes the logs of smart contracts to verify
-          if the taxpayer has paid the stipulated 20% of their income. This
-          analysis ensures adherence to the tax obligations set for each
-          citizen.
+          The tax office then checks the smart contract logs to see if the
+          taxpayer has paid the required 12% of their income. This analysis
+          ensures adherence to the tax obligations set for each citizen.
         </Typography>
 
         <Typography variant="h4" gutterBottom>
@@ -339,11 +334,10 @@ const BusinessArticle = () => {
           dependencies on third parties.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
-          Simplified tax laws pave the way. The system&apos;s structure is
-          designed to simplify tax regulations, providing a clear and
-          comprehensible framework for taxpayers to navigate. This simplified
-          approach fosters greater understanding and compliance with tax
-          obligations.
+          Simplified tax regulations pave the way. The structure of the system
+          aims to simplify tax regulations, providing taxpayers with a clear and
+          understandable framework for navigating them. This simplified approach
+          promotes better understanding and compliance with tax obligations.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
           Empowerment in funding decisions. Individuals wield significant
@@ -353,10 +347,9 @@ const BusinessArticle = () => {
           personalized and impactful distribution of resources.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
-          Overall, the proposed system champions transparency, direct
-          engagement, simplicity in tax laws, and citizen empowerment, fostering
-          a more informed and participatory approach to funding allocation
-          within the government framework.
+          Overall, the proposed system supports transparency, direct engagement,
+          simplicity in tax laws, and citizen empowerment, fostering a more
+          informed and participatory approach to funding allocation.
         </Typography>
       </Box>
     </Container>

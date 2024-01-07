@@ -69,7 +69,7 @@ const UserManual = () => {
         <Typography variant="body1" gutterBottom>
           Navigate to the Documents page using the left-side navigation. Here,
           users can add documents confirming their revenues and expenses from
-          the previous month. Simply click &quot;+ADD DOCUMENT&quot; to fill out
+          the previous month. Simply click &quot;+ADD DOCUMENT&quot;, fill out
           the form, and view added documents in the table below.
         </Typography>
         <CustomCardMedia image="/screen10.png" />
