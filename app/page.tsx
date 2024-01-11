@@ -82,7 +82,7 @@ export default function BasicTabs() {
             <Tab label="Info" {...a11yProps(0)} />
             <Tab label="App Flow" {...a11yProps(1)} />
             <Tab label="Technical Details" {...a11yProps(2)} />
-            <Tab label="Business Insights" {...a11yProps(3)} />
+            <Tab label="Concept Description" {...a11yProps(3)} />
           </Tabs>
         </Box>
         <CustomTabPanel value={value} index={0}>

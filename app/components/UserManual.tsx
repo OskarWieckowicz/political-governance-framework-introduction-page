@@ -64,7 +64,7 @@ const UserManual = () => {
         <CustomCardMedia image="/screen6.png" />
 
         <Typography variant="h5" gutterBottom marginTop={5}>
-          3. Documents Page
+          4. Documents Page
         </Typography>
         <Typography variant="body1" gutterBottom>
           Navigate to the Documents page using the left-side navigation. Here,
@@ -75,7 +75,7 @@ const UserManual = () => {
         <CustomCardMedia image="/screen10.png" />
 
         <Typography variant="h5" gutterBottom marginTop={5}>
-          3. Declaration Page
+          5. Declaration Page
         </Typography>
         <Typography variant="body1" gutterBottom>
           On this page, users input their total revenue and expenses for the
@@ -89,7 +89,7 @@ const UserManual = () => {
         <CustomCardMedia image="/screen9.png" />
 
         <Typography variant="h5" gutterBottom marginTop={5}>
-          4. History Page
+          6. History Page
         </Typography>
         <Typography variant="body1" gutterBottom>
           Access historical tax return data on this page.
@@ -97,7 +97,7 @@ const UserManual = () => {
         <CustomCardMedia image="/screen11.png" />
 
         <Typography variant="h5" gutterBottom marginTop={5}>
-          5. Tax Beneficiaries Page
+          7. Tax Beneficiaries Page
         </Typography>
         <Typography variant="body1" gutterBottom>
           View a list of available public institutions that can receive tax
@@ -107,7 +107,7 @@ const UserManual = () => {
         <CustomCardMedia image="/screen12.png" />
 
         <Typography variant="h5" gutterBottom marginTop={5}>
-          6. Tax Beneficiary Details Page
+          8. Tax Beneficiary Details Page
         </Typography>
         <Typography variant="body1" gutterBottom>
           Here, users can learn about the activities of a selected institution.
@@ -124,7 +124,7 @@ const UserManual = () => {
         <CustomCardMedia image="/screen14.png" />
 
         <Typography variant="h5" gutterBottom marginTop={5}>
-          7. Payment page
+          9. Payment page
         </Typography>
         <Typography variant="body1" gutterBottom>
           When accessing the payment page, the initial step involves selecting
