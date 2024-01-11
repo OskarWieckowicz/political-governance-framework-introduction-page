@@ -43,7 +43,7 @@ const TechnicalArcticle = () => {
         <Typography variant="h4" gutterBottom>
           Repositories
         </Typography>
-        <Typography variant="bobody1dy2" sx={{ marginBottom: "20px" }}>
+        <Typography variant="body1" sx={{ marginBottom: "20px" }}>
           Frontend:{" "}
           <Typography
             component="a"

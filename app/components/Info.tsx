@@ -47,10 +47,10 @@ const Info = () => {
           The subject matter was quite complicated and required a deep analysis
           of political and economic aspects, which took a significant amount of
           time. However, if I were to create a common topic, such as an app for
-          ordering food, I wouldn't have as much motivation to create it. The
-          ideological nature of the project was important to me. Paying taxes
-          with cryptocurrency is not currently practiced in any country, which
-          meant I had to carefully consider more aspects than the common
+          ordering food, I wouldn&apos;t have as much motivation to create it.
+          The ideological nature of the project was important to me. Paying
+          taxes with cryptocurrency is not currently practiced in any country,
+          which meant I had to carefully consider more aspects than the common
           solutions I could follow. Moreover there is no point in looking at the
           project through the prism of the applicable law in Poland, because it
           certainly does not allow for the introduction of a similar tax payment
@@ -60,8 +60,8 @@ const Info = () => {
           After completing this project, I noticed a few key takeaways.
           Regularity turned out to be key when working on such projects. The
           more systematically you work on a project, the better. There were
-          times when I didn't make progress for a month, which resulted in a
-          loss of momentum and difficulty returning to work.
+          times when I didn&apos;t make progress for a month, which resulted in
+          a loss of momentum and difficulty returning to work.
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
           Another conclusion is that it is worth sticking to simplicity at the
@@ -107,10 +107,10 @@ const Info = () => {
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: "20px" }}>
           When it comes to AWS, I spent a lot of time deploying the application.
-          It's a powerful tool, but it requires setting up a lot of parameters
-          and permissions, which can be time-consuming. This type of project
-          will not use the full potential of AWS. It is a fantastic solution but
-          quite expensive.
+          It&apos;s a powerful tool, but it requires setting up a lot of
+          parameters and permissions, which can be time-consuming. This type of
+          project will not use the full potential of AWS. It is a fantastic
+          solution but quite expensive.
         </Typography>
       </Box>
     </Container>
